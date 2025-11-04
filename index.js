@@ -15,7 +15,6 @@ app.use(express.json());
 // MongoDB Connection URL
 const uri = process.env.MONGODB_URI;
 const client = new MongoClient(uri);
-console.log(uri);
 
 async function run() {
   try {
